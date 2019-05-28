@@ -63,8 +63,8 @@ class Blockchain {
         let nonce = 0;
         let hash = this.hashBlock(prevBlockHash, currentBlockData, nonce);
 
-        while (hash.substring(0, 2) !== '00') {
-            nonce++;
+        while (hash.substring(0, 5) !== '00000') {
+            nonce=nonce+1116;
             hash = this.hashBlock(prevBlockHash, currentBlockData, nonce);
         };
 
