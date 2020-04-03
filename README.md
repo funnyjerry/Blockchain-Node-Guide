@@ -1,1 +1,1 @@
-# Blockchain-Node-Guide with Eugene
+# Blockchain-Node-Guide
